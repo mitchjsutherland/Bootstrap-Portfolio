@@ -31,3 +31,12 @@
 #whobutton {
     margin-top: 1rem;
 }
+
+.customCard {
+    text-align: center;
+}
+
+.customCard-image {
+    max-width: 75%;
+    margin: 0 auto;
+}
