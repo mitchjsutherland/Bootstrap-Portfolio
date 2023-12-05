@@ -10,6 +10,19 @@
     color: white !important;
 }
 
-customDrop a {
-    text-decoration: none;
+.customJumbo {
+    background-color: blue;
+}
+
+.customJumbo h2 {
+    font-size: 350%;
+}
+
+.jumboText {
+    text-align: center;
+    color: white;
+}
+
+#profile-pic {
+    border-radius: 50%;
 }
