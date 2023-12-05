@@ -1,0 +1,15 @@
+#logo {
+    width: 10vh
+}
+
+.customNav {
+    background-color: indigo;
+}
+
+.customnav-link {
+    color: white !important;
+}
+
+customDrop a {
+    text-decoration: none;
+}
