@@ -25,4 +25,9 @@
 
 #profile-pic {
     border-radius: 50%;
+    padding: 2rem;
+}
+
+#whobutton {
+    margin-top: 1rem;
 }
