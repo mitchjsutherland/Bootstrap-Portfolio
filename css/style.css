@@ -1,16 +1,31 @@
+body {
+    margin: 0;
+}
+
+/* Navigation Bar ---------------------------------------------------------- */
+
 #logo {
     width: 10vh
+}
+
+.custom-navbar {
+    padding: 0px !important;
 }
 
 .customNav {
     background-color: indigo;
 }
 
+
 .customnav-link {
     color: white !important;
 }
 
+/* Hero Section ---------------------------------------------------------- */
+
 .customJumbo {
+    /* height: calc(100vh-20px); doesn't appear to apply to flexible jumbrotron element - strikethrough when viewed on Brave Browser developer tool*/
+    padding: 5vh 0;
     background-color: aquamarine
 }
 
@@ -31,6 +46,48 @@
     border-radius: 50%;
     padding: 2rem;
 }
+
+/* Project Section ---------------------------------------------------------- */
+
+.project-section {
+    padding: 1.5vh 0;
+}
+
+.project-section h2 {
+    color: indigo;
+    padding-bottom: 1rem;
+}
+
+.customCard {
+    --bs-card-border-width: 0 !important;
+}
+
+/* About Me Section ---------------------------------------------------------- */
+
+.aboutme-section {
+    padding: 1.5vh 0;
+    background-color: darkslateblue;
+}
+
+.aboutme-section h2 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.aboutme-section h5 {
+    color: indigo
+}
+
+.aboutme-skills-contain,
+.aboutme-text-contain {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.customProg {
+    margin-bottom: 0.5rem;
+}
+
 
 #whobutton-wrap {
     margin-top: 1rem;

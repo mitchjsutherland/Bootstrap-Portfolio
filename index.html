@@ -11,7 +11,7 @@
 
     <!-- Nav Bar Section ------------------------------------------------------------------------------------------ -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
         <div class="container-fluid customNav">
           <a class="navbar-brand" href="#top"><img id="logo" src="./images/Logo Line Light.png" alt="Mitch Web Developer Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,88 +59,101 @@
 
     <!-- Projects Section ------------------------------------------------------------------------------------------ -->
 
-    <div class="row justify-content-center">
-        <h3 class="col-sm-6 jumboText">Mitch's Portfolio</h3>
-    </div>
+    <div class="project-section">
+        <div class="row justify-content-center">
+            <h2 class="col-sm-6 jumboText">Portfolio</h2>
+        </div>
 
-    <div class="row project-main justify-content-center">
-        <div class="card customCard col-sm-11 col-md-11 col-lg-11">
-                <img src="./images/screenshot.png" class="card-img-top" alt="Screenshot of Horiseon online homepage">
+        <div class="row project-main justify-content-center">
+            <div class="card customCard col-sm-11 col-md-11 col-lg-11">
+                    <a href="https://mitchjsutherland.github.io/code-refactor-01/"><img src="./images/screenshot.png" class="card-img-top" alt="Screenshot of Horiseon online homepage"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Code Refactoring for Horiseon Marketing Agency</h5>
+                      <p class="card-text">Horiseon's webpage was upgraded to meet accessibility standards and improve long term sustainability.</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card customCard h-100">
+                <img src="./images/coming-soon-7154976_640.webp" class="card-img-top customCard-image" alt="A sticky note that says coming soon">
                 <div class="card-body">
-                  <h5 class="card-title">Code Refactoring for Horiseon Marketing Agency</h5>
-                  <p class="card-text">Horiseon's webpage was upgraded to meet accessibility standards and improve long term sustainability.</p>
-                  <a href="https://mitchjsutherland.github.io/code-refactor-01/" class="btn btn-primary">Show me more</a>
+                  <h5 class="card-title">Project 2</h5>
                 </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card customCard h-100">
+                  <img src="./images/coming-soon-7154976_640.webp" class="card-img-top customCard-image" alt="A sticky note that says coming soon">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 3</h5>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card customCard h-100">
+                  <img src="./images/coming-soon-7154976_640.webp" class="card-img-top customCard-image" alt="A sticky note that says coming soon">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 4</h5>
+                  </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card customCard h-100">
-            <img src="./images/coming-soon-7154976_640.webp" class="card-img-top customCard-image" alt="A sticky note that says coming soon">
-            <div class="card-body">
-              <h5 class="card-title">Project 2</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-            <div class="card customCard h-100">
-              <img src="./images/coming-soon-7154976_640.webp" class="card-img-top customCard-image" alt="A sticky note that says coming soon">
-              <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
-              </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card customCard h-100">
-              <img src="./images/coming-soon-7154976_640.webp" class="card-img-top customCard-image" alt="A sticky note that says coming soon">
-              <div class="card-body">
-                <h5 class="card-title">Project 4</h5>
-              </div>
-            </div>
-        </div>
-    </div>
+
+
+
 
     <!-- Skills+About Me Section ------------------------------------------------------------------------------------------ -->
 
-    <div class="row justify-content-center">
-        <h3 class="col-sm-6 jumboText">Who is Mitch?</h3>
+    
+    <div class="aboutme-section">
+        <div class="row justify-content-center">
+            <h2 class="col-sm-6 jumboText">Who is Mitch?</h2>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="d-flex col-lg-4 col-md-6 col-sm-10 align-items-center">
+                <div class="aboutme-text-contain">
+                    <p>Mitch is lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="aboutme-skills-contain">
+                    <h5>Javascript</h5>
+                        <div class="progress customProg" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                        </div>
+                    <h5>JQuery</h5>
+                        <div class="progress customProg" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                        </div>
+                    <h5>Node.js</h5>
+                        <div class="progress customProg" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                        </div>
+                    <h5>APIs</h5>
+                        <div class="progress customProg" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                        </div>
+                    <h5>React</h5>
+                        <div class="progress customProg" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                        </div>
+                    <h5>UX Design</h5>
+                        <div class="progress customProg" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="row">
-        <div class="d-flex col-lg-4 col-md-6 col-sm-10 align-items-center">
-            <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-        </div>
 
-        <div class="col">
-            <h4>Javascript</h4>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-            </div>
-            <h4>JQuery</h4>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-            </div>
-            <h4>Node.js</h4>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-            </div>
-            <h4>APIs</h4>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-            </div>
-            <h4>React</h4>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-            </div>
-            <h4>UX Design</h4>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-            </div>
-        </div>
-    </div>
 
         
     <!-- Contact Section ------------------------------------------------------------------------------------------ -->
