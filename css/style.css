@@ -60,6 +60,12 @@ body {
 
 .customCard {
     --bs-card-border-width: 0 !important;
+    text-align: center;
+}
+
+.customCard-image {
+    max-width: 75%;
+    margin: 0 auto;
 }
 
 /* About Me Section ---------------------------------------------------------- */
@@ -109,7 +115,7 @@ body {
 }
 
 .buttonRow {
-    width: 30%;
+    width: 100% !important;
 }
 
 .buttonRow button {
@@ -140,21 +146,9 @@ body {
     --bs-btn-disabled-border-color: indigo;
 }
 
-.customCard {
-    text-align: center;
-}
 
-.customCard-image {
-    max-width: 75%;
-    margin: 0 auto;
-}
+/* Footer Section ---------------------------------------------------------- */
 
-.skillRow {
+footer {
     text-align: center;
-    align-items: center;
-}
-
-.skillText {
-    text-align: center;
-    font-size: 200%;
 }
