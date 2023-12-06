@@ -26,7 +26,7 @@ body {
 .customJumbo {
     /* height: calc(100vh-20px); doesn't appear to apply to flexible jumbrotron element - strikethrough when viewed on Brave Browser developer tool*/
     padding: 5vh 0;
-    background-color: aquamarine
+    background-color: gold;
 }
 
 .customJumbo h2 {
@@ -66,7 +66,7 @@ body {
 
 .aboutme-section {
     padding: 1.5vh 0;
-    background-color: darkslateblue;
+    background-color: indigo
 }
 
 .aboutme-section h2 {
@@ -75,7 +75,12 @@ body {
 }
 
 .aboutme-section h5 {
-    color: indigo
+    color: white;
+    opacity: 50%;
+}
+
+.aboutme-section p {
+    color: whitesmoke
 }
 
 .aboutme-skills-contain,
@@ -85,22 +90,46 @@ body {
 }
 
 .customProg {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 
-#whobutton-wrap {
+/* Contact Section ---------------------------------------------------------- */
+
+.contact-section {
+    padding: 1.5vh 0;
+}
+
+.contact-section .collapse {
+    color: gold;
+}
+
+.custom-collapsecard {
+    justify-content: center;
+}
+
+.buttonRow {
+    width: 30%;
+}
+
+.buttonRow button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+#contactbutton-wrap {
     margin-top: 1rem;
 }
 
-#whobutton {
+#contactbutton {
+    font-size: 1.5rem;
     color: white;
     --bs-btn-color: #fff;
     --bs-btn-bg: indigo;
     --bs-btn-border-color: purple;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: purple;
-    --bs-btn-hover-border-color: aquamarine;
+    --bs-btn-hover-border-color: gold;
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: purple;
